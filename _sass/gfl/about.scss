@@ -1,0 +1,175 @@
+.about-title {
+    width: 100%;
+    height: 160px;
+    background: #F2F2F2;
+
+    p {
+        padding-left: 320px;
+        padding-top: 32px;
+        font-size: 72px;
+        font-family: DINPro-Black, DINPro;
+        font-weight: 900;
+        color: #1A1A1A;
+        line-height: 93px;
+        letter-spacing: 3px;
+    }
+}
+
+.about-lab-title {
+
+    margin-top: 96px;
+    margin-left: 148px;
+    p {
+        font-size: 32px;
+        font-family: DINPro-Black, DINPro;
+        font-weight: 900;
+        color: #1A1A1A;
+        line-height: 41px;
+        letter-spacing: 1px;
+    }
+}
+
+.about-lab-descr {
+
+    margin-top: 29px;
+    margin-left: 148px;
+    margin-right: 89px;
+    p {
+	    text-align:justify;
+        font-size: 20px;
+        font-family: DINPro-Regular, DINPro;
+        font-weight: 400;
+        color: #505050;
+        line-height: 40px;
+        letter-spacing: 1px;
+    }
+}
+
+.about-team {
+    margin-top: 100px;
+}
+
+.about-team-title {
+    width: 1284px;
+    height: 273px;
+    background: #8BB8FF;
+
+    p {
+        padding-left: 123px;
+        padding-top: 62px;
+        font-size: 40px;
+        font-family: DINPro-Black, DINPro;
+        font-weight: 900;
+        color: #FFFFFF;
+        line-height: 51px;
+        letter-spacing: 2px;
+    }
+}
+
+.about-team-member {
+    margin-top: -112px;
+    margin-left: 10%;
+    height: auto;
+}
+
+.about-member-card {
+    margin-top: 30px;
+    width: 90%;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px 0px rgba(26, 26, 26, 0.06);
+    border-radius: 20px;
+    padding-top: 48px;
+    padding-bottom: 45px;
+}
+
+.about-member-avatar {
+    width: 160px;
+    height: 160px;
+    margin: auto auto;
+
+    img {
+        width: 100%; height: 100%;  border-radius:50%
+    }
+}
+
+.about-member-name {
+    margin: 40px auto 0;
+    text-align:center;
+    font-size: 32px;
+    font-family: DINPro-Bold, DINPro;
+    font-weight: 600;
+    color: #1A1A1A;
+    line-height: 41px;
+    letter-spacing: 1px;    
+}
+
+.about-member-descr {
+    width: 90%;
+    margin: 24px auto 0;
+    text-align:center;
+    font-size: 18px;
+    font-family: DINPro-Regular, DINPro;
+    font-weight: 400;
+    color: #505050;
+    line-height: 31px;
+    letter-spacing: 1px;
+    
+}
+
+.about-member-email {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    color: blue;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.about-team-intro {
+    margin-top: 200px;
+    margin-bottom: 120px;
+}
+
+.about-team-intro-name {
+    margin-top: 127px;
+    margin-right: 50px;
+
+    p {
+        text-align: right;
+        font-size: 40px;
+        font-family: DINPro-Black, DINPro;
+        font-weight: 900;
+        color: #1A1A1A;
+        line-height: 51px;
+        letter-spacing: 2px;
+    }
+
+    div {
+        margin-top: 6px;
+        float: right;
+        width: 72px;
+        height: 6px;
+        background: #8BB8FF;
+        border-radius: 6px;
+    }
+}
+
+.about-team-intro-text {
+    margin-top: 35px;
+    margin-left: 148px;
+    margin-right: 50px;
+
+    p {
+        text-align: justify;
+        text-align-last: right;
+        font-size: 20px;
+        font-family: DINPro-Regular, DINPro;
+        font-weight: 400;
+        color: #505050;
+        line-height: 40px;
+        letter-spacing: 1px;
+    }
+}

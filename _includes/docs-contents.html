@@ -1,0 +1,43 @@
+<div class="docs-contents">
+    <div class="contents-title">
+        <p>CONTENTS</p>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function formatNumber(num) {
+        if (num < 10) {
+            return "0" + num;
+        } else {
+            return "" + num;
+        }
+    }
+    $(document).ready(function () {
+        $('.docs-text h2').each(function (index) {
+            var h2_index = formatNumber(index + 1);
+            var h2_title = $(this).text();
+            var chapter = $("<div class='contents-chapter'>"
+            + "<div>"
+            + "<p class='chapter-index'>" + h2_index + "</p>"
+            + "<div class='chapter-sep'></div>"
+            + "<p class='chapter-title'>" + h2_title + "</p>"
+            + "</div>"
+            + "</div>");
+
+            var children = $(this).nextUntil("h2", "h3");
+
+            var section_list = $("<ul class='section-list'></ul>")
+
+            children.each(function(index) {
+                var h3_title = $(this).text();
+                section_list.append("<li class='section-item'>"
+                + "<p>" + h3_title + "</p>"
+                + "</div>");
+            })
+
+            chapter.append(section_list);
+
+            $(".docs-contents").append(chapter);
+        });
+    })
+</script>

@@ -1,0 +1,132 @@
+#head_rect {
+    margin-top: -72px;
+    height: 662px;
+    background: #8BB8FF;
+}
+
+#proj_title {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+#proj_welcome {
+    margin-top: -128px;
+    margin-left: 10px;
+    height: 33px;
+    font-size: 34px;
+    font-weight: 900;
+    font-family: Camar;
+    color: #2C284C;
+    line-height: 41px;
+    letter-spacing: 2px;
+}
+
+#proj_name {
+    margin-left: 10px;
+    height: 87px;
+    font-size: 84px;
+    font-weight: 900;
+    font-family: Camar;
+    color: #2C284C;
+    line-height: 110px;
+    letter-spacing: 6px;
+}
+
+#proj_descr {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+#proj_descr p {
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: DINPro-Bold, DINPro;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 33px;
+    letter-spacing: 1px;
+}
+
+.middle_text {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -80px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 0px rgba(5, 24, 28, 0.1);
+    border-radius: 30px;
+}
+
+.middle_text p {
+    padding: 40px 80px;
+    text-align: justify;
+    font-size: 28px;
+    font-family: DINPro-Bold, DINPro;
+    font-weight: bold;
+    color: #505050;
+    line-height: 46px;
+    letter-spacing: 1px;
+}
+
+.subproject {
+    width: 40%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 30%;
+    font-size: 40px;
+    font-family: DINPro-Black, DINPro;
+    font-weight: 900;
+    color: #000000;
+    line-height: 51px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.project_card {
+    margin: 50px;
+    padding: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px 0px rgba(43, 38, 72, 0.12);
+    border-radius: 20px;
+}
+
+.project_card .img_div {
+    width: 300px;
+    height: 300px;
+}
+
+.project_card p {
+    margin-top: 30px;
+    height: 41px;
+    font-size: 24px;
+    font-family: DINPro-Bold, DINPro;
+    font-weight: bold;
+    color: #2B2648;
+    line-height: 41px;
+    letter-spacing: 1px;
+}
+
+#page_bottom {
+    margin-top: 50px;
+    height: 80px;
+    background: #F1F1F1;
+}
+
+#page_bottom .bottom_title {
+    margin-top: 25px;
+    margin-left: 30px;
+    height: 30px;
+    font-size: 22px;
+    font-family: Helvetica;
+    color: #505050;
+    line-height: 34px;
+    letter-spacing: 1px;
+}
+
+#page_bottom .bottom_item {
+    margin-top: 28px;
+    height: 24px;
+    font-size: 14px;
+    font-family: Helvetica;
+    color: #505050;
+    line-height: 24px;
+}

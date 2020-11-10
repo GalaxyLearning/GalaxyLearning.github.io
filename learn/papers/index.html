@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="zero-wrapper">
+
+    <div class="papers-summary">
+        <p class="summary-title">Our Contributions</p>
+        <p class="summary-text">Our main contributions.</p>
+    </div>
+
+    <div class="papers-show">
+        {%- for year in site.data.papers -%}
+        <div class="paper-timeline">
+            <div class="timeline-point">
+                <img class="geopattern-img" data-pattern-id="cabi"/>
+            </div>
+            <div class="timeline-text">
+                <p>{{ year.year }}</p>
+            </div>
+            <div class="timeline-line">
+                <div class="trap-rectangle"></div>
+                <div class="trap-triangle"></div>
+            </div>
+        </div>
+            {%- for paper in year.papers -%}
+            <div class="paper-card">
+                <a class="paper-title" href="{{ paper.link }}" target="_blank">{{ paper.title }} <span
+                        class="	glyphicon glyphicon-new-window"></span></a>
+                {%- if paper.abstract -%}
+                <p class="paper-abstract">{{ paper.abstract }}</p>
+                {%- endif -%}
+                <p class="paper-authors">{{ paper.author }}</p>
+                <p class="paper-publication">{{ paper.publication }}</p>
+                <p class="paper-link">{{ paper.link }}</p>
+            </div>
+            {%- endfor -%}
+        {%- endfor -%}
+    </div>
+
+</div>

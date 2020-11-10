@@ -1,0 +1,117 @@
+.post-directory {
+    font-size: 14px;
+    background: #fff;
+    box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+.post-directory dt, dd{
+    border-left: 5px solid #666;
+    cursor: pointer;
+    padding: 2px 5px 2px 15px;
+}
+
+.post-directory a{
+    text-decoration: none;
+}
+
+.post-directory dt:hover, dd:hover {
+    background: #666;
+    border-left: 5px solid #111;
+}
+
+.post-directory dt:hover a, dd:hover a {
+    font-weight: bold;
+    color: #fff;
+}
+
+.col-md-4 {
+    position: static; /* fix strange behavior */
+}
+
+.docs-container {
+    margin-top: 48px;
+}
+
+.docs-contents {
+    margin: 5px;
+}
+
+.contents-title {
+
+    margin-bottom: 34px;
+
+    p {
+        font-size: 30px;
+        font-family: DINPro-Black, DINPro;
+        font-weight: 900;
+        color: #2C284C;
+        line-height: 38px;
+        letter-spacing: 1px;
+    }
+}
+
+.contents-chapter {
+
+    margin-top: 24px;
+
+    .chapter-index {
+        width: 31px;
+        margin: 5px 0 5px;
+        font-size: 26px;
+        font-family: DINPro-Bold, DINPro;
+        font-weight: bold;
+        color: #8BB8FF;
+        line-height: 33px;
+        letter-spacing: 1px;
+        display: inline-block;
+    }
+
+    .chapter-sep {
+        width: 13px;
+        height: 13px;
+        margin-bottom: 3px;
+        background: #8BB8FF;
+        border-radius: 50%;  
+        display: inline-block;
+    }
+
+    .chapter-title {
+        margin-left: 12px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        font-size: 24px;
+        font-family: DINPro-Bold, DINPro;
+        font-weight: bold;
+        color: #2C284C;
+        line-height: 31px;     
+        display: inline-block;   
+    }
+
+    .section-list {
+        margin-left: 64px;
+
+        .section-item {
+
+            list-style-type: none;
+            margin-top: 10px;
+
+            p {
+                font-size: 22px;
+                font-family: DINPro-Regular, DINPro;
+                font-weight: 400;
+                color: #505050;
+                line-height: 28px;
+            }
+        
+        }
+    }
+
+}
+
+.docs-text {
+    margin: 5px 20px;
+    background-color: #F8F8F8;
+    padding: 10px 20px;
+    border-radius: 20px;
+}

@@ -1,0 +1,45 @@
+<header class="site-header" role="banner">
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+
+    <nav class="site-nav">
+
+      <div class="trigger">
+        <ul class="nav nav-pills">
+          {%- for router in site.routers -%}
+          {%- if router.subitem -%}
+          <li>
+            <a class="page-link dropdown dropdown-toggle" data-toggle="dropdown" href="{{ router.url | relative_url }}">
+              {{ router.title | escape }} <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-my">
+              {%- for item in router.subitem -%}
+              <li><a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a></li>
+              {%- endfor -%}
+            </ul>
+          </li>
+          {%- else -%}
+          <li>
+            <a class="page-link" href="{{ router.url | relative_url }}">{{ router.title | escape }}</a>
+          </li>
+          {%- endif -%}
+          {%- endfor -%}
+        </ul>
+      </div>
+      <script>
+        /* $(document).ready(function () {
+          $(document).off('click.bs.dropdown.data-api');
+        }); */
+      </script>
+      <style>
+        .site-nav .nav>li .dropdown-menu {
+          margin: 0;
+        }
+
+        .site-nav .nav>li:hover .dropdown-menu {
+          display: block;
+        }
+      </style>
+    </nav>
+  </div>
+</header>

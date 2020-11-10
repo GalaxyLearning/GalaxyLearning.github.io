@@ -1,0 +1,145 @@
+- year: Top
+  papers:
+    - title: Unsupervised Image-to-Image Translation with Generative Adversarial Networks
+      author: Hao Dong, Paarth Neekhara, Chao Wu, Yike Guo
+      link: https://arxiv.org/abs/1701.02676
+      date: Jan.10 2017
+      publication: arXiv preprint
+      abstract: It's useful to automatically transform an image from its original form to some synthetic form (style, partial contents, etc.), while keeping the original structure or semantics. We define this requirement as the "image-to-image translation" problem, and propose a general approach to achieve it, based on deep convolutional and conditional generative adversarial networks (GANs), which has gained a phenomenal success to learn mapping images from noise input since 2014. In this work, we develop a two step (unsupervised) learning method to translate images between different domains by using unlabeled images without specifying any correspondence between them, so that to avoid the cost of acquiring labeled data. Compared with prior works, we demonstrated the capacity of generality in our model, by which variance of translations can be conduct by a single type of model. Such capability is desirable in applications like bidirectional translation.
+
+    - title: Mixed Neural Network Approach for Temporal Sleep Stage Classification
+      author: Hao Dong; Akara Supratak; Wei Pan; Chao Wu; Paul M. Matthews; Yike Guo
+      link: https://ieeexplore.ieee.org/document/7995122
+      date: Feb. 2018
+      publication: IEEE Transactions on Neural Systems and Rehabilitation Engineering
+      abstract: This paper proposes a practical approach to addressing limitations posed by using of single-channel electroencephalography (EEG) for sleep stage classification. EEG-based characterizations of sleep stage progression contribute the diagnosis and monitoring of the many pathologies of sleep. Several prior reports explored ways of automating the analysis of sleep EEG and of reducing the complexity of the data needed for reliable discrimination of sleep stages at lower cost in the home. However, these reports have involved recordings from electrodes placed on the cranial vertex or occiput, which are both uncomfortable and difficult to position. Previous studies of sleep stage scoring that used only frontal electrodes with a hierarchical decision tree motivated this paper, in which we have taken advantage of rectifier neural network for detecting hierarchical features and long short-term memory network for sequential data learning to optimize classification performance with single-channel recordings. After exploring alternative electrode placements, we found a comfortable configuration of a single-channel EEG on the forehead and have shown that it can be integrated with additional electrodes for simultaneous recording of the electro-oculogram. Evaluation of data from 62 people (with 494 hours sleep) demonstrated better performance of our analytical algorithm than is available from existing approaches with vertex or occipital electrode placements. Use of this recording configuration with neural network deconvolution promises to make clinically indicated home sleep studies practical.
+
+    - title: Blockchain-Based platform for Distribution AI
+      author: Chao Wu, Fengda Zhang, Fei Wu
+      link: https://easychair.org/publications/preprint/BqV4
+      date: Feb.2 2019
+      abstract:
+        In recent years, the current artificial intelligence exposed user data privacy during training and
+        the high cost of training are getting more and more attention, which are becoming an obstacle to the
+        development of AI. We identify the main issues as data privacy, ownership, and exchange and model
+        privacy, which are difﬁcult to be solved with the current centralized paradigm of machine learning
+        training methodology or federating learning methodology. As a result, we propose a practical model
+        training paradigm based on Blockchain, named Distributed AI, which aims to train a model with distributed
+        data and to reserve the data ownership for their owners and the interest of trained model. In this new
+        paradigm, we use Blockchain[3] as the base architecture in which we abstract different actors (i.e., model
+        provider, data provider) taking different actions to archive own target, realize distributing encrypted
+        model training by Federating Learning with different actors, set smart contract as model training infrastructure,
+        set up notification server, pricing of training data is according to its contribution and therefore it is not
+        about the exchange of data ownership.
+
+    - title: Dropping Activation Outputs With Localized First-Layer Deep Network for Enhancing User Privacy and Data Security
+      author: Hao Dong; Chao Wu; Zhen Wei; Yike Guo
+      date: https://ieeexplore.ieee.org/document/8070331
+      link: Mar. 2018
+      publication: IEEE Transactions on Information Forensics and Security
+      abstract: "Deep learning methods can play a crucial role in anomaly detection, prediction, and supporting decision making for applications like personal health-care, pervasive body sensing, and so on. However, current architecture of deep networks suffers the privacy issue that users need to give out their data to the model (typically hosted in a server or a cluster on Cloud) for training or prediction. This problem is getting more severe for those sensitive health-care or medical data (e.g., fMRI or body sensors measures like EEG signals). In addition to this, there is also a security risk of leaking these data during the data transmission from user to the model (especially when it is through the Internet). Targeting at these issues, in this paper, we proposed a new architecture for deep network in which users do not reveal their original data to the model. In our method, feed-forward propagation and data encryption are combined into one process: we migrate the first layer of deep network to users' local devices and apply the activation functions locally, and then use the “dropping activation output” method to make the output non-invertible. The resulting approach is able to make model prediction without accessing users' sensitive raw data. The experiment conducted in this paper showed that our approach achieves the desirable privacy protection requirement and demonstrated several advantages over the traditional approach with encryption/decryption."
+
+    - title: Training Encrypted Models with Privacy-preserved Data on Blockchain
+      author: Lifeng Liu, Yifan Hu, Jiawei Yu, Fengda Zhang, Gang Huang, Jun Xiao, Chao Wu
+      link: https://dl.acm.org/doi/10.1145/3387168.3387211
+      date: Aug. 2019
+      abstract:
+        Currently, training neural networks often requires a large corpus of data from multiple parties.
+        However, data owners are reluctant to share their sensitive data to third parties for modelling in many cases.
+        Therefore, Federated Learning (FL) has arisen as an alternative to enable collaborative training of models without
+        sharing raw data, by distributing modelling tasks to multiple data owners. Based on FL, we premodel sent a novel
+        and decentralized approach to training encrypted models with privacy-preserved data on Blockchain. In our approach,
+        Blockchain is adopted as the machine learning environment where different actors (i.e., the model provider, the
+        data provider) collaborate on the training task. During the training process, an encryption algorithm is used to
+        protect the privacy of data and the trained model. Our experiments demonstrate that our approach is practical in
+        real-world applications.
+
+    - title: "SIMGAN: Photo-Realistic Semantic Image Manipulation Using Generative Adversarial Networks"
+      author: Simiao Yu; Hao Dong; Felix Liang; Yuanhan Mo; Chao Wu; Yike Guo
+      link: https://ieeexplore.ieee.org/document/8804285/
+      date: Sept. 2019
+      publication: 2019 IEEE International Conference on Image Processing (ICIP)
+      abstract: Semantic image manipulation (SIM) aims to generate realistic images from an input source image and a target text description, such that the generated images not only match the content of the description, but also maintain text-irrelevant features of the source image. It requires to learn a good mapping between visual features and linguistic features. Previous works on SIM can only generate images of limited resolution that typically lack of fine and clear details. In this work, we aim to generate high-resolution photo-realistic images for SIM. Specifically, we propose SIMGAN, a generative adversarial networks (GAN) based architecture that is capable of generating images of size 256 × 256 for SIM. We demonstrate the effectiveness of SIMGAN and its superiority over existing methods via qualitative and quantitative evaluation on Caltech-200 and Oxford-102 datasets.
+
+    - title: Distributed Modelling Approaches for Data Privacy Preserving
+      author: Chao Wu, Fengda Zhang, Fei Wu
+      link: https://ieeexplore.ieee.org/document/8919319/
+      date: Sept.11 2019
+      abstract:
+        Recently, machine learning has been developing rapidly. There is no doubt that data plays
+        an important role in machine learning. However, it is hard to make full use of the data from
+        a large amount of nodes to collaboratively train a good model with data privacy preserving.
+        In this paper, we study and analyze several decentralized machine learning algorithms regarding
+        to privacy protection, and propose a smart contract-based decentralized federated learning
+        algorithm. We also propose a decentralized topology-based machine learning algorithm to solve
+        the problems caused by star-topology network. Based on it, we further present a novel method of
+        model aggregation based on distillation to break the conventional constrain of federated learning
+        the models of different nodes shall have the same network structure. We also use several methods
+        to generate synthetic dataset from raw dataset to train models with data privacy protected. Finally,
+        we analyze and compare different distributed machine learning algorithms through the experiments.
+
+    - title: "Transfer Heterogeneous Knowledge Among Peer-to-Peer Teammates: A Model Distillation Approach"
+      author: Zeyue Xue, Shuang Luo, Chao Wu, Pan Zhou, Kaigui Bian, Wei Du
+      link: https://arxiv.org/abs/2002.02202
+      date: Feb.6 2020
+      publication: arXiv preprint
+      abstract: Peer-to-peer knowledge transfer in distributed environments has emerged as a promising method since it could accelerate learning and improve team-wide performance without relying on pre-trained teachers in deep reinforcement learning. However, for traditional peer-to-peer methods such as action advising, they have encountered difficulties in how to efficiently expressed knowledge and advice. As a result, we propose a brand new solution to reuse experiences and transfer value functions among multiple students via model distillation. But it is still challenging to transfer Q-function directly since it is unstable and not bounded. To address this issue confronted with existing works, we adopt Categorical Deep Q-Network. We also describe how to design an efficient communication protocol to exploit heterogeneous knowledge among multiple distributed agents. Our proposed framework, namely Learning and Teaching Categorical Reinforcement (LTCR), shows promising performance on stabilizing and accelerating learning progress with improved team-wide reward in four typical experimental environments.
+
+    - title: Evaluation Framework For Large-scale Federated Learning
+      author: Lifeng Liu, Fengda Zhang, Jun Xiao, Chao Wu
+      link: https://arxiv.org/abs/2003.01575
+      date: Mar.12 2020
+      publication: arXiv preprint
+      abstract: Federated learning is proposed as a machine learning setting to enable distributed edge devices, such as mobile phones, to collaboratively learn a shared prediction model while keeping all the training data on device, which can not only take full advantage of data distributed across millions of nodes to train a good model but also protect data privacy. However, learning in scenario above poses new challenges. In fact, data across a massive number of unreliable devices is likely to be non-IID (identically and independently distributed), which may make the performance of models trained by federated learning unstable. In this paper, we introduce a framework designed for large-scale federated learning which consists of approaches to generating dataset and modular evaluation framework. Firstly, we construct a suite of open-source non-IID datasets by providing three respects including covariate shift, prior probability shift, and concept shift, which are grounded in real-world assumptions. In addition, we design several rigorous evaluation metrics including the number of network nodes, the size of datasets, the number of communication rounds and communication resources etc. Finally, we present an open-source benchmark for large-scale federated learning research.
+
+    - title: "When Sharing Economy Meets IoT: Towards Fine-grained Urban Air Quality Monitoring through Mobile Crowdsensing on Bike-share System"
+      author: Di Wu, Tao Xiao, Xuewen Liao, Jie Luo, Chao Wu, Shigeng Zhang, Yong Li, Yike Guo
+      link: https://dl.acm.org/doi/10.1145/3397328
+      date: Jun. 2020
+      publication: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies
+      abstract: Air pollution is a serious global issue impacting public health and social economy. In particular, exposure to small particulate matter of 2.5 microns or less in diameter (PM2.5) can cause cardiovascular and respiratory diseases, and cancer. Fine-grained urban air quality monitoring is crucial yet difficult to achieve. In this paper, we present the design, implementation, and evaluation of an ambient environment aware system, namely UbiAir, which can support fine-grained urban air quality monitoring through mobile crowdsensing on a bike-sharing system. We have built specific IoT box configured with multiple pollutant sensors and attached on shared bikes to sample micro-scale air quality data in the monitoring space that is split by a scalable grid structure. Both hardware and software data calibration methods are exploited in UbiAir to make the sampled data reliable. Then, we use Bayesian compressive sensing (BCS) as an inference model that leverages the calibrated samples to recover data points without direct measurements and reconstruct an accurate air quality map covering the entire monitoring space. In addition, red envelope based incentive schemes and differential rewarding strategies have been designed in UbiAir, and an adaptive BCS algorithm is proposed to deploy the red envelopes at the most informative positions to facilitate data sampling and inference. We have tested our system on campus with over 100k data measurements collected by 36 students through 18 days. Our real-world experiments show that UbiAir is a light-weight, low-cost, accurate and scalable system for fine-grained air quality monitoring, as compared with other solutions.
+
+    - title: Federated Mutual Learning
+      author: Tao Shen, Jie Zhang, Xinkang Jia, Fengda Zhang, Gang Huang, Pan Zhou, Kun Kuang, Fei Wu, Chao Wu
+      link: https://arxiv.org/abs/2006.16765
+      date: Jun.27 2020
+      publication: arXiv preprint
+      abstract: Federated learning (FL) enables collaboratively training deep learning models on decentralized data. However, there are three types of heterogeneities in FL setting bringing about distinctive challenges to the canonical federated learning algorithm (FedAvg). First, due to the Non-IIDness of data, the global shared model may perform worse than local models that solely trained on their private data; Second, the objective of center server and clients may be different, where center server seeks for a generalized model whereas client pursue a personalized model, and clients may run different tasks; Third, clients may need to design their customized model for various scenes and tasks; In this work, we present a novel federated learning paradigm, named Federated Mutual Leaning (FML), dealing with the three heterogeneities. FML allows clients training a generalized model collaboratively and a personalized model independently, and designing their private customized models. Thus, the Non-IIDness of data is no longer a bug but a feature that clients can be personally served better. The experiments show that FML can achieve better performance than alternatives in typical FL setting, and clients can be benefited from FML with different models and tasks.
+
+- year: 2019
+  papers: 
+    -
+      title: Exploratory Analysis for Big Social Data Using Deep Network
+      author: Chao Wu; Guolong Wang; Jiangcheng Zhu; Piyawat Lertvittayakumjorn; Simon Hu; Chilie Tan; Hong Mi; Yadan Xu; Jun Xiao
+      link: https://ieeexplore.ieee.org/document/8643028
+      date: Feb. 2019
+      publication: IEEE Access
+    
+    -
+      title: Object detection and localization in 3D environment by fusing raw fisheye image and attitude data
+      author: Zhu, J., Zhu, J., Wan, X., Wu, C., & Xu, C.
+      link: https://www.sciencedirect.com/science/article/abs/pii/S1047320319300069
+      date: Feb. 2019
+      publication: Journal of Visual Communication and Image Representation
+
+    -
+      title: An artificial intelligence based data-driven approach for design ideation
+      author: Wu, C.*, Hu, S., Lee, C. H., & Xiao, J.
+      link: https://www.sciencedirect.com/science/article/abs/pii/S1047320319300604
+      date: May. 2019
+      publication: Journal of Visual Communication and Image Representation
+
+- year: 2020
+  papers:
+    -
+      title: An Automated Machine-Learning Approach for Road Pothole Detection Using Smartphone Sensor Data
+      author: Chao Wu, Zhen Wang, Simon Hu *, Julien Lépine, Xiaoxiang Na, Marc Stettler, Daniel Ainalis
+      link: https://www.mdpi.com/1424-8220/20/19/5564
+      date: Sept.28 2020
+      publication: Sensors
+    -
+      title: Medical Fraud and Abuse Detection System Based on Machine Learning
+      author: Conghai Zhang, Xinyao Xiao, Chao Wu
+      link: https://www.mdpi.com/1660-4601/17/19/7265
+      date: Oct.5 2020
+      publication: International Journal of Environmental Research and Public Health
