@@ -24,7 +24,7 @@ layout: default
         </div>
     </div>
     <div class="col-xs-6">
-        <img style="margin-top: -55px;" src="{{ "/assets/imgs/about/dai.jpg"  | relative_url }}" />
+        <img style="margin-top: 55px;" src="{{ "/assets/imgs/about/dai.jpg"  | relative_url }}" />
     </div>
 </div>
 
@@ -39,7 +39,7 @@ layout: default
             <div class="col-xs-3">
                 <div class="about-member-card">
                     <div class="about-member-avatar">
-                        <img class="geopattern-img" data-pattern-id="0000" />
+                        <img class="geopattern-img" data-pattern-id="{{ member.name }}" />
                     </div>
                     <p class="about-member-name">
                         {{ member.name }}
