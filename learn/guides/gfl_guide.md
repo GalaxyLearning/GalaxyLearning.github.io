@@ -12,7 +12,7 @@ based on model distillation. Developers can choose different federated learning 
 
 
 ## GFL Framework Design
-![imgaes](./framework_design.png)
+![imgaes]({{ "./framework_design.png" | relative_url }})
 > The framework design reference PaddleFL
 
 **Prepare Job**

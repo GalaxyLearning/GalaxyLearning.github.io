@@ -9,7 +9,7 @@ We  propose a modular evaluation metrics and a benchmark for large-scale federat
 
 The Evaluation Metrics and Benchmark Paradigm is: 
 
-<img src="./structure2.png" style="zoom:50%;" />
+<img src="https://imgbed.momodel.cn/gfl-statics/images/XooOAwGBEqkh.png" style="zoom:50%;" />
 
 ## Non-IID Dataset Module
 
@@ -38,7 +38,7 @@ pip3 install -r requirements.txt
 
 Adding a standard to measure the degree of non independence and distribution of data. Using NI,
 
-<img src="./definition1.png">
+<img src="https://imgbed.momodel.cn/gfl-statics/images/ZdYKvs7ftPsv.png">
 
 #### usage
 
@@ -53,7 +53,7 @@ step3: get results
 According to number of nodes, we split CIFAR10 dataset. We can customize the config.yaml configuration file. Set the split mode, randomly or by category. Set the number of nodes, the size of the data set for each node, and the number of each node category. 
 In addition, we can also set the same distribution of data sets to increase the error dataset.
 
-<img src="./datageneration.png" style="zoom:50%;" />
+<img src="https://imgbed.momodel.cn/gfl-statics/images/KzASVJRESeDJ.png" style="zoom:50%;" />
 
 In this part, we use `downloadData.py 、makeDataset.py and preprocess.py` to generate non-IID datasets. More importantly, we provide a config file config.yaml for setting related parameters about non-IID datasets. We now work on MNIST and CIFAR10 datasets.
 
@@ -165,4 +165,4 @@ dataloader = readnpy("./xxxx/splitByLabelsWithNormalAndErrorDataset/SplitByLabel
 
 ## Benchmark
 
-<img src="./benchmark.png" alt="image-20191227023027733" />
+<img src="https://imgbed.momodel.cn/gfl-statics/images/5NzLxBLfU5Pb.png" alt="image-20191227023027733" />

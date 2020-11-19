@@ -1,0 +1,4 @@
+use_public_res: false
+
+# set blank if no cdn
+cdn_url: https://imgbed.momodel.cn/gfl-statics

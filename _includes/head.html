@@ -3,12 +3,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/bootstrap.min.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/font-awesome.min.css" | relative_url }}">
-  <script src="{{ "/assets/js/jquery.min.js" | relative_url }}"></script>
-  <script src="{{ "/assets/js/bootstrap.min.js" | relative_url }}"></script>
-  <script src="{{ "/assets/js/geopattern-1.2.3.min.js" | relative_url }}"></script>
+  <link rel="stylesheet" href="{{ site.data.cdn.cdn_url }}{{ "/assets/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ site.data.cdn.cdn_url }}{{ "/assets/css/font-awesome.min.css" | relative_url }}">
+  {% if site.data.cdn.use_public_res %}
+  <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js"></script>
+  {% else %}
+  <link rel="stylesheet" href="{{ site.data.cdn.cdn_url }}{{ "/assets/css/bootstrap.min.css" | relative_url }}">
+  <script src="{{ site.data.cdn.cdn_url }}{{ "/assets/js/jquery.min.js" | relative_url }}"></script>
+  <script src="{{ site.data.cdn.cdn_url }}{{ "/assets/js/bootstrap.min.js" | relative_url }}"></script>
+  <script src="{{ site.data.cdn.cdn_url }}{{ "/assets/js/geopattern-1.2.3.min.js" | relative_url }}"></script>
+  {% endif %}
+  
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}

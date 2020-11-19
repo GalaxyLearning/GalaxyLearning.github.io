@@ -12,7 +12,7 @@ based on model distillation. Developers can choose different federated learning 
 
 
 ## GFL Framework Design
-![imgaes](./framework_design.png)
+![imgaes](https://imgbed.momodel.cn/gfl-statics/images/0rfTwW2WPAgu.png)
 > The framework design reference PaddleFL
 
 **Prepare Job**
