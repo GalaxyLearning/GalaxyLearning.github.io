@@ -36,7 +36,7 @@ layout: default
             <div class="col-xs-3">
                 <div class="about-member-card">
                     <div class="about-member-avatar">
-                        <img class="geopattern-img" data-pattern-id="{{ member.name }}" />
+                        <img src="{{ site.data.cdn.cdn_url }}{{ "/assets/imgs/avatars/" | append: member.pic  | relative_url }}"/>
                     </div>
                     <p class="about-member-name">
                         {{ member.name }}
