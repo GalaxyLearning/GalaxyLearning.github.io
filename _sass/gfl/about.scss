@@ -50,7 +50,7 @@
 }
 
 .about-team-title {
-    width: 1284px;
+    width: 100%;
     height: 273px;
     background: #8BB8FF;
 
@@ -68,7 +68,8 @@
 
 .about-team-member {
     margin-top: -112px;
-    margin-left: 10%;
+    margin: 0 5% 0 10%;
+    // padding: 0 5%;
     height: auto;
 }
 
@@ -131,18 +132,19 @@
 .about-team-intro {
     margin-top: 200px;
     margin-bottom: 120px;
+    
 }
 
 .about-team-intro-name {
-    margin-top: 127px;
+    // margin-top: 127px;
     margin-right: 50px;
-
+    margin-top: 10%;
     p {
         text-align: right;
         font-size: 40px;
         font-family: DINPro-Black, DINPro;
         font-weight: 900;
-        color: #1A1A1A;
+        color: #332a2a;
         line-height: 51px;
         letter-spacing: 2px;
     }
